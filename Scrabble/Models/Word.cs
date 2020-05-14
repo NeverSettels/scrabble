@@ -38,6 +38,11 @@ namespace Scrabble.Models
         {
           score += 10;
         }
+        else
+        {
+          score = 0;
+          break;
+        }
       }
       return score;
     }

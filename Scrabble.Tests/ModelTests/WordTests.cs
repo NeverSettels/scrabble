@@ -11,7 +11,7 @@ namespace Scrabble.TestTools
     public void Scrabble_GetScore_ScoresWorth1()
     {
       ScrabbleGame tester = new ScrabbleGame();
-      int score = tester.GetScore("a e i o u l n r s t");
+      int score = tester.GetScore("aeioulnrst");
       Assert.AreEqual(10, score);
     }
     [TestMethod]
@@ -32,7 +32,7 @@ namespace Scrabble.TestTools
     public void Scrabble_GetScore_ScoresWorth4()
     {
       ScrabbleGame tester = new ScrabbleGame();
-      int score = tester.GetScore("f h v w y");
+      int score = tester.GetScore("fhvwy");
       Assert.AreEqual(20, score);
     }
     [TestMethod]
