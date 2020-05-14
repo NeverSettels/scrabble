@@ -6,7 +6,7 @@
 
 ## Description
 
-_A project to introduce the C# language and the .NET Core framework. The console application will practice creating objects within objects using a scrabble scoring application. The lesson is meant to practice creating automated testing methods using MSTest and behavior driven development._
+_A project to introduce the C# language and the .NET Core framework. The console application will act as a scrabble scoring tool. The lesson is meant to practice creating automated testing methods using MSTest and behavior driven development._
 
 ## Setup/Installation Requirements
 
@@ -22,7 +22,7 @@ There are no known bugs at the time of this update.
 
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/scrabble) here on GitHub._
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/jhvozdovich/scrabble/issues) here on GitHub._
 
 ## Technologies Used
 
