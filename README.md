@@ -33,7 +33,9 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 ### Specs
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
-| **Backend only exercise** | User Input:”null” | Output: "null" |
+| **User enters a word** | User Input:”dog” | Output: "dog" |
+| **Program displays point value of word** | User Input:”dog” | Output: "5" |
+| **Program displays error message if non alphabetical characters are used** | User Input:”123” | Output: "Don't be a jerk." |
 
 ### License
 This software is licensed under the MIT license.
