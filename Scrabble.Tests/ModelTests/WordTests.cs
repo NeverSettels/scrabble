@@ -12,21 +12,35 @@ namespace Scrabble.TestTools
     {
       ScrabbleGame tester = new ScrabbleGame();
       int score = tester.GetScore("a e i o u l n r s t");
-      Assert.AreEqual(score, 10);
+      Assert.AreEqual(10, score);
     }
     [TestMethod]
     public void Scrabble_GetScore_ScoresWorth2()
     {
       ScrabbleGame tester = new ScrabbleGame();
       int score = tester.GetScore("dog");
-      Assert.AreEqual(score, 5);
+      Assert.AreEqual(5, score);
     }
     [TestMethod]
     public void Scrabble_GetScore_ScoresWorth3()
     {
       ScrabbleGame tester = new ScrabbleGame();
       int score = tester.GetScore("bcmp");
-      Assert.AreEqual(score, 12);
+      Assert.AreEqual(12, score);
+    }
+    [TestMethod]
+    public void Scrabble_GetScore_ScoresWorth4()
+    {
+      ScrabbleGame tester = new ScrabbleGame();
+      int score = tester.GetScore("f h v w y");
+      Assert.AreEqual(20, score);
+    }
+    [TestMethod]
+    public void Scrabble_GetScore_ScoresWorth5()
+    {
+      ScrabbleGame tester = new ScrabbleGame();
+      int score = tester.GetScore("k");
+      Assert.AreEqual(5, score);
     }
   }
 }
