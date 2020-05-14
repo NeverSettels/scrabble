@@ -30,6 +30,14 @@ namespace Scrabble.Models
         {
           score += 5;
         }
+        else if (word[i] == 'j' || word[i] == 'x')
+        {
+          score += 8;
+        }
+        else if (word[i] == 'q' || word[i] == 'z')
+        {
+          score += 10;
+        }
       }
       return score;
     }

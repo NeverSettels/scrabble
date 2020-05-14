@@ -42,5 +42,19 @@ namespace Scrabble.TestTools
       int score = tester.GetScore("k");
       Assert.AreEqual(5, score);
     }
+    [TestMethod]
+    public void Scrabble_GetScore_ScoresWorth8()
+    {
+      ScrabbleGame tester = new ScrabbleGame();
+      int score = tester.GetScore("jx");
+      Assert.AreEqual(16, score);
+    }
+    [TestMethod]
+    public void Scrabble_GetScore_ScoresWorth10()
+    {
+      ScrabbleGame tester = new ScrabbleGame();
+      int score = tester.GetScore("qz");
+      Assert.AreEqual(20, score);
+    }
   }
 }
